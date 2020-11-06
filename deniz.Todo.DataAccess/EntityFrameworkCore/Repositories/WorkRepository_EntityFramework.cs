@@ -9,7 +9,7 @@ using deniz.Todo.Entities.Concrete;
 /// </summary>
 namespace deniz.Todo.DataAccess.EntityFrameworkCore.Repositories
 {
-    class WorkRepository_EntityFramework : GenericRepository_EntityFramework<Work>, IWorkDal
+   public class WorkRepository_EntityFramework : GenericRepository_EntityFramework<Work>, IWorkDal
     {
 
     }
