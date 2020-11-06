@@ -5,12 +5,13 @@ using deniz.Todo.Entities.Concrete;
 /// </summary>
 namespace deniz.Todo.DataAccess.Interface
 {
-    public interface IWorkDal
+    public interface IWorkDal : IGenericDal<Work>
     {
-        void Save(Work work);
-        void Delete(Work work);
-        void Update(Work work);
-        Work GetById(int id);
-        List<Work> GetAll();
+        // Generic interface yazildigindan dolayi bu kisimlara gerek kalmadi.
+        //void Save(Work work);
+        //void Delete(Work work);
+        //void Update(Work work);
+        //Work GetById(int id);
+        //List<Work> GetAll();
     }
 }
